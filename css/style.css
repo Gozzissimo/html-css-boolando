@@ -48,6 +48,10 @@ html {
     margin-top: 5px;
 }
 
+.model-brand {
+    text-transform: capitalize;
+}
+
 .model-title {
     text-transform: uppercase;
     font-weight: bold;
@@ -90,8 +94,9 @@ html {
 
 .sustain {
     background-color: green;
+    left: 42px;
 }
 
-.sustain , .only {
-    left: 42px;
+.only {
+    left: 0;
 }
