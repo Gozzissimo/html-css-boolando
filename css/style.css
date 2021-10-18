@@ -1,0 +1,26 @@
+/* reset */
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font */
+html {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* float */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 15px auto;
+    height: 400px;
+    background-color: lightcoral;
+}
