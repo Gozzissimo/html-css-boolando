@@ -31,7 +31,21 @@ html {
 
 .model{
     float: left;
-    width: calc(33.33% - 10px);
+    width: calc(100% / 3 - 10px);
     margin: 5px;
-    background-color: turquoise;
+}
+
+.model-img {
+    position: relative;
+}
+
+.model-img-2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.model-img:hover .model-img-2 {
+    display: inline-block;
 }
