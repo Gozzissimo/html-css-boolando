@@ -21,8 +21,6 @@ html {
 .container {
     width: 80%;
     margin: 15px auto;
-    height: 800px;
-    background-color: lightcoral;
 }
 
 .model-line {
@@ -32,7 +30,7 @@ html {
 .model{
     float: left;
     width: calc(100% / 3 - 10px);
-    margin: 5px;
+    margin: 5px 5px 3.5em;
 }
 
 .model-img {
@@ -48,4 +46,24 @@ html {
 
 .model-img:hover .model-img-2 {
     display: inline-block;
+}
+
+.model-txt {
+    margin-top: 5px;
+}
+
+.model-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.model-disc-price {
+    font-weight: bold;
+    color: red;
+    display: inline-block;
+}
+
+.model-full-price {
+    display: inline-block;
+    text-decoration: line-through;
 }
