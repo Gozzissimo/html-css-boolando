@@ -33,7 +33,7 @@ html {
     position: relative;
 }
 
-.model-img-1 {
+.model-img img {
     width: 100%;
 }
 
@@ -42,7 +42,6 @@ html {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
 }
 
 .model-img:hover .model-img-2 {
