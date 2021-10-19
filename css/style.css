@@ -33,11 +33,16 @@ html {
     position: relative;
 }
 
+.model-img-1 {
+    width: 100%;
+}
+
 .model-img-2 {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
 }
 
 .model-img:hover .model-img-2 {
